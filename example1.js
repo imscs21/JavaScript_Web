@@ -2,10 +2,10 @@
 var result="[Your external ip address]";
 var language = window.navigator.userLanguage || window.navigator.language;
 if(language == "ko-KR"){
-  result="<pre>[당신의 공인 아이피]</pre>";
+  result="<xmp>[당신의 공인 아이피]</xmp>";
 }
 else{
- result="<pre>[Your external ip address]</pre>";
+ result="<xmp>[Your external ip address]</xmp>";
 }
 
 //
