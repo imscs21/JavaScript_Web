@@ -1,6 +1,4 @@
-function checklanguage(){
-//var sentense;
+(function(){
 var language = window.navigator.userLanguage || window.navigator.language;
-document.write(language);//alert(language);
-}
-checklanguage();
+document.write(language);})();
+//checklanguage();
