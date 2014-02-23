@@ -10,4 +10,3 @@ else{
 
 document.write(result);
 document.write('<br>');
-alert(language);
