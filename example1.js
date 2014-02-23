@@ -1,6 +1,6 @@
 function checklanguage(){
-var sentense;
+//var sentense;
 var language = window.navigator.userLanguage || window.navigator.language;
-alert(language);
+//alert(language);
 }
 checkla
